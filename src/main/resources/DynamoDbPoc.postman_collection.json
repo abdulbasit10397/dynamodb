@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "New Request",
+			"name": "Save Transaction",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -34,7 +34,7 @@
 			"response": []
 		},
 		{
-			"name": "localhost:9080/transaction/10001",
+			"name": "Delete Transaction",
 			"request": {
 				"method": "DELETE",
 				"header": [],
@@ -53,7 +53,7 @@
 			"response": []
 		},
 		{
-			"name": "localhost:9080/transaction/10002",
+			"name": "Update Using JPA",
 			"request": {
 				"method": "PUT",
 				"header": [],
@@ -81,7 +81,7 @@
 			"response": []
 		},
 		{
-			"name": "localhost:9080/transaction/10002",
+			"name": "Get Single Transaction",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -100,7 +100,7 @@
 			"response": []
 		},
 		{
-			"name": "localhost:9080/transactions",
+			"name": "Get All Transactions",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -114,6 +114,14 @@
 						"transactions"
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Without Fetch",
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}

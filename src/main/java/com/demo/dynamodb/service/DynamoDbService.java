@@ -35,6 +35,7 @@ public class DynamoDbService {
         return transactionDetailsRepository.save(transactionDetails);
     }
 
+
     public void deleteTransaction(String id) {
         transactionDetailsRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Transaction not found" + id));
